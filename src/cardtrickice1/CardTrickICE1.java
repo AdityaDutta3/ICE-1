@@ -87,5 +87,8 @@ public class CardTrickICE1 {
         {
             System.out.println("Sorry,no match found");
         }
+        Card luckyCard = new Card();
+        luckyCard.setValue(4);
+        luckyCard.setSuits("hearts");
     }    
 }
